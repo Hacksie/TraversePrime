@@ -21,7 +21,7 @@ internal class Program
         if (num > 100000000)
             return;
 
-        if (IsPrime(num) && IsValidReverse(num))
+        if (IsPrime(num)) // && IsValidReverse(num)) // We don't need to do this because we're already coming from a prime
         {
             if (IsValidForward(num))
             {
